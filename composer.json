@@ -1,0 +1,22 @@
+{
+    "name": "solwin/socials",
+    "description": "This Magento 2 extension provides integration of social media like Facebook and Twitter to your website.",
+    "type": "magento2-module",
+    "version": "1.0.4",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\Socials\\": ""
+        }
+    }
+}
